@@ -1,0 +1,28 @@
+{
+  "name": "heroku-deploy",
+  "version": "1.0.0",
+  "description": "> More tests on ci/cd to heroku.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaponsforge/heroku-deploy.git"
+  },
+  "author": "weaponsforge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaponsforge/heroku-deploy/issues"
+  },
+  "homepage": "https://github.com/weaponsforge/heroku-deploy#readme",
+  "keywords": [
+    "express",
+    "heroku",
+    "nodejs"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
